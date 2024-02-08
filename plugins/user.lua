@@ -13,26 +13,9 @@ return {
     "echasnovski/mini.move",
     lazy = false,
     version = false,
-    config = function()
-      require("mini.move").setup {
-        mappings = {
-          -- Move visual selection in Visual mode. Defaults are Alt (Meta) + hjkl.
-          left = "<leader>mh",
-          right = "<leader>ml",
-          down = "<leader>mj",
-          up = "<leader>mk",
-
-          -- Move current line in Normal mode
-          line_left = "<leader>mh",
-          line_right = "<leader>ml",
-          line_down = "<leader>mj",
-          line_up = "<leader>mk",
-        },
-      }
-    end,
+    config = function() require("mini.move").setup {} end,
   },
   {
-    "ThePrimeagen/vim-be-good",
     lazy = false,
   },
   {
