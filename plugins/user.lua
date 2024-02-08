@@ -15,7 +15,6 @@ return {
     version = false,
     config = function() require("mini.move").setup {} end,
   },
-
   {
     "ThePrimeagen/vim-be-good",
     lazy = false,
